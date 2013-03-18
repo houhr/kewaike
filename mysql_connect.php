@@ -1,9 +1,9 @@
 <?php
 
-DEFINE ('DB_USER', 'kewaike');
-DEFINE ('DB_PASSWORD', 'imuimu');
-DEFINE ('DB_HOST', '127.0.0.1');
-DEFINE ('DB_NAME', 'houhongru_kewaike');
+DEFINE ('DB_USER', '');
+DEFINE ('DB_PASSWORD', '');
+DEFINE ('DB_HOST', '');
+DEFINE ('DB_NAME', '');
 
 if($dbc = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD)) {
 
